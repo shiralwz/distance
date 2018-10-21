@@ -5,6 +5,7 @@
 You will see
 
 The Adjacent Matrix: 
+```
            A     B     C     D     E     F     G     H     I     J
      A     0    12   INF    19    20   INF    16   INF   INF   INF
      B   INF     0     5    13   INF   INF   INF   INF    15   INF
@@ -16,8 +17,10 @@ The Adjacent Matrix:
      H     4    19   INF   INF   INF   INF     6     0   INF   INF
      I   INF   INF   INF   INF   INF   INF   INF    21     0    10
      J   INF     7    15   INF   INF   INF   INF   INF   INF     0
+```     
 
 The Final Path Matrix: 
+```
            A     B     C     D     E     F     G     H     I     J
      A     0     1     1     3     4     4     6     1     1     1
      B     2     1     2     2     2     2     8     8     8     8
@@ -29,8 +32,10 @@ The Final Path Matrix:
      H     0     0     0     0     0     6     6     7     0     0
      I     7     9     9     9     9     7     7     7     8     9
      J     1     1     1     1     1     1     1     1     1     9
+```     
      
 Print all the shortest paths and distances between two arbitrary stations: 
+```
 A -> A   Distance: 0   Path: A -> A
 A -> B   Distance: 12   Path: A -> B
 A -> C   Distance: 17   Path: A -> B -> C
@@ -140,8 +145,11 @@ J -> G   Distance: 49   Path: J -> B -> I -> H -> G
 J -> H   Distance: 43   Path: J -> B -> I -> H
 J -> I   Distance: 22   Path: J -> B -> I
 J -> J   Distance: 0   Path: J -> J
+```
      
 3)input the name of the start and end station: (such as: "J->G")
+```
 Input: J->I
 J -> I   Distance: 22   Path: J -> B -> I
+```
 
